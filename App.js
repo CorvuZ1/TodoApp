@@ -21,10 +21,6 @@ export default function App() {
     setTodos(prev => prev.filter(todo => todo.id !== id))
   }
 
-  const onDoneTodo = id => {
-    
-  }
-
   return (
       <View>
         <NavBar title="Todo App"/>
@@ -43,8 +39,6 @@ export default function App() {
       </View>
   );
 }
-
-
 
 const styles = StyleSheet.create({
   container: {
