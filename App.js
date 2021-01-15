@@ -54,5 +54,3 @@ const styles = StyleSheet.create({
     marginRight: 3
   }
 });
-
-// https://youtu.be/7KwtXNoYQEY?t=6232
